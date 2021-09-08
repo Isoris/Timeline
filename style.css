@@ -60,8 +60,8 @@ Main components
 
 -------------------------------- */
 header {
-  height: 20px;
-  line-height: 20px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   background: #205072;
 }
@@ -154,14 +154,23 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
+.cd-timeline-img.cd-sampling {
+  background: #BED3EC;
+}
 .cd-timeline-img.cd-poisson {
-  background: #E9765B;
+  background: #BED3EC;
+}
+.cd-timeline-img.cd-challenge {
+  background: #BED3EC;
 }
 .cd-timeline-img.cd-bacteria {
   background: #BED3EC;
 }
-.cd-timeline-img.cd-location {
-  background: #f0ca45;
+.cd-timeline-img.cd-vaccine {
+  background: #BED3EC;
+}
+.cd-timeline-img.cd-elisa {
+  background: #BED3EC;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
